@@ -1,0 +1,32 @@
+[
+  {
+    "roomNumber": "1-к",
+    "area": 25.2,
+    "street": "Станиславского",
+    "houseNumber": "52",
+    "coordinates": {
+      "latitude": 82.926247,
+      "longitude": 55.032832
+    }
+  },
+  {
+    "roomNumber": "1-к",
+    "area": 25.2,
+    "street": "Станиславского",
+    "houseNumber": "52",
+    "coordinates": {
+      "latitude": 82.904174,
+      "longitude": 55.032462
+    }
+  },
+  {
+    "roomNumber": "1-к",
+    "area": 25.2,
+    "street": "Станиславского",
+    "houseNumber": "52",
+    "coordinates": {
+      "latitude": 82.891594,
+      "longitude": 54.975439
+    }
+  }
+]

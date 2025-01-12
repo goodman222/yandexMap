@@ -1,0 +1,154 @@
+.search-map {
+  width: 1150px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.search-map__list {
+  width: 400px;
+  border: #c30000 solid 1px;
+}
+
+.search-map__map {
+  flex-grow: 1;
+  border: #057023 solid 1px;
+}
+
+.search-map .mob-cont-obj {
+  box-shadow: 3px 4px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin: 10px 5px;
+  padding: 10px 0;
+}
+
+.search-map {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  padding: 0px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.search-map .col-4 {
+  flex: 0 0 auto;
+  width: 30%;
+}
+
+.search-map .col-8 {
+  flex: 0 0 auto;
+  width: 63%;
+}
+
+.search-map .mob-obj-top {
+  font-size: 10px;
+}
+
+.search-map .mob-obj-mid {
+  margin-top: 3px;
+  /* height: 62px; */
+}
+
+.search-map .obj-foot-price {
+  font-weight: 600;
+  font-size: 23px;
+  color: #3b8a23;
+}
+
+.search-map .col-relative {
+  position: relative;
+}
+
+.search-map .mob-cont-img {
+  border-radius: 5px;
+  height: 130px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.search-map .item-image_count-col {
+  border-bottom-right-radius: 4px;
+}
+
+.search-map .mob-cont-traf {
+  color: #dbdbdb;
+  margin-left: 7px;
+}
+
+.search-map .mob-cont-imgtraf {
+  margin-top: -5px;
+}
+
+.search-map .float-end {
+  float: right !important;
+}
+.search-map .mob-obj-mid h2 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+.search-map .mob-obj-mid p {
+  margin: 0px;
+  font-size: 10px;
+}
+
+.search-map .obj-foot-stickynote {
+  margin-top: 6px;
+}
+
+.search-map .mob-obj-foot .favorites__item {
+  display: inline-flex;
+  margin-right: -10px;
+  position: relative;
+  align-items: center;
+}
+
+.search-map .mob-obj-foot .favorites__item .favoritesUser {
+  margin-right: 5px;
+}
+
+.search-map a.favorites.yes,
+.search-map .favoritesUser.yes {
+  background-image: url(/themes/classic/img/heart-active.svg);
+}
+
+.search-map .mob-obj-foot .favoritesUserAction {
+  width: 50px;
+  white-space: pre-line;
+  text-align: left;
+  border-bottom: none;
+}
+.search-map .favoritesUserAction {
+  font-size: 10px;
+}
+
+.search-map .mob-foot-bolder {
+  font-size: 10px;
+}
+
+.search-map .foot-price-bolder {
+  font-weight: 600;
+  color: #000000;
+  margin-right: 5px;
+}
+
+/* Стиль метки */
+.marker {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #444a48;
+  transition: transform 0.3s ease; /* Анимация увеличения */
+  transform-origin: center center;
+}
+
+.marker:hover {
+  transform: scale(1.2);
+}
