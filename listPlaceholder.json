@@ -1,32 +1,68 @@
 [
   {
     "roomNumber": "1-к",
-    "area": 25.2,
-    "street": "Станиславского",
-    "houseNumber": "52",
+    "id": 123,
+    "area": 2,
+    "street": "Комсомольский проспект",
+    "houseNumber": "13",
     "coordinates": {
-      "latitude": 82.926247,
-      "longitude": 55.032832
+      "latitude": 55.032592,
+      "longitude": 82.904131
+    }
+  },
+  {
+    "roomNumber": "4-к",
+    "id": 1234,
+    "area": 25.2,
+    "street": "Комсомольский проспект",
+    "houseNumber": "13",
+    "coordinates": {
+      "latitude": 55.032592,
+      "longitude": 82.904131
+    }
+  },
+  {
+    "roomNumber": "4-к",
+    "id": 13,
+    "area": 25.2,
+    "street": "Комсомольский проспект",
+    "houseNumber": "13",
+    "coordinates": {
+      "latitude": 55.032592,
+      "longitude": 82.904131
     }
   },
   {
     "roomNumber": "1-к",
+    "id": 1111,
     "area": 25.2,
-    "street": "Станиславского",
-    "houseNumber": "52",
+    "street": "Вертковская",
+    "houseNumber": "5/1",
     "coordinates": {
-      "latitude": 82.904174,
-      "longitude": 55.032462
+      "latitude": 54.975439,
+      "longitude": 82.891594
     }
   },
   {
     "roomNumber": "1-к",
+    "id": 2222,
     "area": 25.2,
-    "street": "Станиславского",
-    "houseNumber": "52",
+    "street": "верхняя левая(bounds[0])",
+    "houseNumber": "5/1",
     "coordinates": {
-      "latitude": 82.891594,
-      "longitude": 54.975439
+      "latitude": 55.09916753081366,
+      "longitude": 82.79219895141601
+    }
+  },
+  {
+    "roomNumber": "1-к",
+    "id": 3333,
+    "area": 25.2,
+    "street": "правая нижняя bounds[1]",
+    "houseNumber": "51",
+    "coordinates": {
+      "latitude": 54.961121058617096,
+      "longitude": 83.04866104858398
     }
   }
 ]

@@ -140,15 +140,70 @@
 }
 
 /* Стиль метки */
-.marker {
+.single-marker {
   width: 15px;
   height: 15px;
   border-radius: 50%;
   background-color: #444a48;
   transition: transform 0.3s ease; /* Анимация увеличения */
   transform-origin: center center;
+  border: 1px #dbdbdb solid;
+  color: #fff;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.marker:hover {
+.single-marker:hover,
+.cluster-marker:hover {
   transform: scale(1.2);
+}
+
+.cluster-marker {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  transition: transform 0.3s ease; /* Анимация увеличения */
+  transform-origin: center center;
+  border: 3px #dbdbdb solid;
+  color: #fff;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-marker.marker--active {
+  background-color: #00ae00;
+}
+
+.cluster-marker.marker--active {
+  /* background-color: #00ae00; */
+  border-color: #444a48;
+}
+
+.cluster-10 {
+  background-color: #42a878;
+}
+
+.cluster-25 {
+  background-color: #008a4e;
+}
+
+.cluster-50 {
+  background-color: #5a9d36;
+}
+
+.cluster-100 {
+  background-color: #cec101;
+}
+.cluster-500 {
+  background-color: #c38611;
+}
+.cluster-1000 {
+  background-color: #bb302d;
+}
+.cluster-more-1000 {
+  background-color: #bb1219;
 }
